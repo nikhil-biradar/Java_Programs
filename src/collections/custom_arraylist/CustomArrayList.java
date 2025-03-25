@@ -44,7 +44,7 @@ public class CustomArrayList<O> {
         return removedElement;
     }
 
-    public Object removeByObj(Object o){
+    public Object remove(Object o){
         for(int i = 0; i < arr.length; i++){
             if(arr[i] == o){
                 remove(i);

@@ -14,14 +14,14 @@ public class CustomArrayListApp {
 
         //Display all elements in Custom ArrayList
         list.display();
-
+//        System.out.println();
         //Display specific element in Custom Arraylist
 //        System.out.println("\nDisplaying element at index " + 1 + " is : " + list.get(1));
 
         //Remove specific element in Custom Arraylist
 //        System.out.println("Element removed from index " + 1 + " is : " + list.remove(1));
 
-        System.out.println("\nRemoved Element : " + list.removeByObj(20));
+        System.out.println("\nRemoved Element : " + list.remove(Integer.valueOf(20)));
 //        System.out.println("Removed Element : " + list.remove(1));
 
         list.display();

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArrayListExample {
+public class ArrayListCreation {
     public static void main(String[] args) {
 
         //1st way to create arraylist
@@ -19,7 +19,7 @@ public class ArrayListExample {
 
         System.out.println(list);
 
-        //2nd way to create
+        //2nd way to create arrayList
         List<String> list1 = Arrays.asList("Monday", "Tuesday", "Wednesday");
         System.out.println(list1);
 
@@ -27,11 +27,6 @@ public class ArrayListExample {
         String array [] = {"Mango", "Banana", "Apple"};
         List <String> list2 = Arrays.asList(array);
         System.out.println(list2);
-
-        //Get Element
-        System.out.println(list.get(2));
-        list1.remove("Monday");
-        System.out.println(list1);
 
     }
 }
