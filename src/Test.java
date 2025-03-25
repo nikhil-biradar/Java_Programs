@@ -2,7 +2,15 @@ import collections.custom_arraylist.CustomArrayList;
 
 import java.util.Scanner;
 
-public class Test {
+public class Test{
+    public static void main(String [] args){
+
+    }
+}
+
+
+
+/*public class Test {
     public static void main(String[] args) {
         String st1 = "java";
         String st2 = st1 + "world";
@@ -12,7 +20,7 @@ public class Test {
         System.out.println(st1 == st2);
         System.out.println(st1 == st3);
     }
-}
+}*/
 
 /*public class Test {
     void add(){
