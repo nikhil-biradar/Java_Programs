@@ -1,13 +1,50 @@
-import collections.custom_arraylist.CustomArrayList;
+import java.util.Objects;
+public class Test {
 
-import java.util.Scanner;
+    public static void main(String[] args) {
 
-public class Test{
-    public static void main(String [] args){
+//        String s1 = "Java";
+        String s2 = new String("Java");
 
+//        System.out.println(s1.hashCode());
+//        System.out.println(s2.hashCode());
+
+//        System.out.println(System.identityHashCode(s1)); //refers scp
+//        System.out.println(System.identityHashCode("Java")); //refers scp
+
+        System.out.println(System.identityHashCode("Java")); //refers scp
+        System.out.println(System.identityHashCode(s2)); // refers heap
+
+//        System.out.println(System.identityHashCode(s1));
+//        System.out.println(System.identityHashCode(s2));
     }
 }
 
+/*public class Test {
+    public static void main(String... args) {
+
+        Integer x = 127;
+        Integer y = 127;
+
+        System.out.println(x.equals(y));
+        System.out.println(x == y);
+    }
+}*/
+
+/*public class Test{
+    public static void main(String[] args) {
+        int arr[] = {2,'b',1,'a',2,6,'a',3,'b',2,9,3,2,9,9,9,8,9,9};
+        int maxfreq = 0;
+        for(int i=0; i<arr.length; i++){
+            for(int j=0; j<arr.length; j++){
+                if(arr[i] == arr[j]){
+                    maxfreq = arr[i];
+                }
+            }
+        }
+        System.out.print("Most frequent element is : " + maxfreq);
+    }
+}*/
 
 
 /*public class Test {

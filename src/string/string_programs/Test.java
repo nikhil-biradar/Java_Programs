@@ -3,11 +3,14 @@ package string.string_programs;
 public class Test {
     public static void main(String[] args) {
 
-        char [] ch = {'a'};
 
-        String str = "a";
+        String s1 = new String("Nikhil");
+        String s2 = s1;
 
-        System.out.println(str.equals(String.valueOf(ch)));  //Converts char into String
-        System.out.println(str.equals(ch.toString())); //compares Hashcode
+        System.out.println(s1 == s2);
+
+//        System.out.println(System.identityHashCode(s1));
+//        System.out.println(System.identityHashCode(s2));
+
     }
 }

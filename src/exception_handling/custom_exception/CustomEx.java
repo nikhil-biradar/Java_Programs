@@ -2,8 +2,9 @@ package exception_handling.custom_exception;
 
 //Custom Exception with default Constructor
 public class CustomEx extends Exception {
-    CustomEx(){
 
+    public CustomEx(){
+        super();
     }
 
     public static void main(String[] args) {
