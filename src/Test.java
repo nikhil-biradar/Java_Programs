@@ -1,16 +1,30 @@
-import java.util.Objects;
+import java.util.Scanner;
 public class Test {
-
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a Number : ");
+        int num = sc.nextInt();
 
-//        String s1 = "Java";
-        String s2 = new String("Java");
+        int count = 0;
+        for(int i=1; i<=num; i++){
+            if(num % i == 0)
+                count++;
+        }
+        if(count == 2){
+            System.out.println("Prime Number");
+        }else {
+            System.out.println("Not a Prime Number");
+        }
+    }
+}
 
-//        System.out.println(s1.hashCode());
-//        System.out.println(s2.hashCode());
+/*public class Test {
+    public static void main(String[] args) {
+        String s1 = "Java";
+        String s2 = new String("Java").intern();
 
-//        System.out.println(System.identityHashCode(s1)); //refers scp
-//        System.out.println(System.identityHashCode("Java")); //refers scp
+        System.out.println(System.identityHashCode(s1)); //refers scp
+        System.out.println(System.identityHashCode("Java")); //refers scp
 
         System.out.println(System.identityHashCode("Java")); //refers scp
         System.out.println(System.identityHashCode(s2)); // refers heap
@@ -18,7 +32,26 @@ public class Test {
 //        System.out.println(System.identityHashCode(s1));
 //        System.out.println(System.identityHashCode(s2));
     }
+}*/
+
+/*
+public class Test {
+    public static void main(String[] args) {
+        String s1 = null;
+        String s2 = "";
+        String s3 = "";
+        String s4 = "Nikhil";
+        String s5 = "Nikhil";
+
+//        System.out.println(s1.hashCode());
+//        System.out.println(s2.hashCode());
+
+        System.out.println(System.identityHashCode(s1));
+        System.out.println(System.identityHashCode(s2));
+        System.out.println(System.identityHashCode(s3));
+    }
 }
+*/
 
 /*public class Test {
     public static void main(String... args) {

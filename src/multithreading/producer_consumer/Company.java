@@ -20,7 +20,6 @@ public class Company {
         if(!f){
             wait();
         }
-
         System.out.println("Consumed : " + this.n);
         f = false;
         notify();
