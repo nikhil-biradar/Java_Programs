@@ -44,13 +44,13 @@ public class CustomArrayList<O> {
         return removedElement;
     }
 
-    public Object remove(Object o){
+    public Object remove(Object obj){
         for(int i = 0; i < arr.length; i++){
-            if(arr[i] == o){
+            if(arr[i] == obj){
                 remove(i);
             }
         }
-        return o;
+        return obj;
     }
 
     //Ensure Capacity Method
