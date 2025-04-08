@@ -18,7 +18,7 @@ public class Test {
     }
 }
 
-/*public class Test {
+/*public class MethodChaining {
     public static void main(String[] args) {
         String s1 = "Java";
         String s2 = new String("Java").intern();
@@ -35,7 +35,7 @@ public class Test {
 }*/
 
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
         String s1 = null;
         String s2 = "";
@@ -53,7 +53,7 @@ public class Test {
 }
 */
 
-/*public class Test {
+/*public class MethodChaining {
     public static void main(String... args) {
 
         Integer x = 127;
@@ -64,7 +64,7 @@ public class Test {
     }
 }*/
 
-/*public class Test{
+/*public class MethodChaining{
     public static void main(String[] args) {
         int arr[] = {2,'b',1,'a',2,6,'a',3,'b',2,9,3,2,9,9,9,8,9,9};
         int maxfreq = 0;
@@ -80,7 +80,7 @@ public class Test {
 }*/
 
 
-/*public class Test {
+/*public class MethodChaining {
     public static void main(String[] args) {
         String st1 = "java";
         String st2 = st1 + "world";
@@ -92,19 +92,19 @@ public class Test {
     }
 }*/
 
-/*public class Test {
+/*public class MethodChaining {
     void add(){
         System.out.println("add method");
     }
     public static void main(String [] args){
-        Test t = new Test();
+        MethodChaining t = new MethodChaining();
         t.add();
     }
 }*/
 
 
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
         CustomArrayList<Integer> list1 = new CustomArrayList<>();
 
@@ -120,14 +120,14 @@ public class Test {
 }*/
 
 /*
-public class Test implements Runnable{
+public class MethodChaining implements Runnable{
     @Override
     public void run() {
         System.out.println(Thread.currentThread());
     }
 
     public static void main(String[] args) {
-        Test test = new Test();
+        MethodChaining test = new MethodChaining();
         Thread t1 = new Thread(test, "One");
         Thread t2 = new Thread(test, "Two");
         Thread t3 = new Thread(test, "Three");
@@ -141,10 +141,10 @@ public class Test implements Runnable{
 */
 
 /*
-public class Test extends Thread {
+public class MethodChaining extends Thread {
     public static void main(String[] args) {
-        Test t = new Test();
-        Test t2 = new Test();
+        MethodChaining t = new MethodChaining();
+        MethodChaining t2 = new MethodChaining();
 
         t.start();
         t2.start();
@@ -160,7 +160,7 @@ public class Test extends Thread {
 */
 
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
         String s1 = "java";
         String s2 = "java";
@@ -173,15 +173,15 @@ public class Test {
 }*/
 
 /*
-public class Test extends Thread {
+public class MethodChaining extends Thread {
     public static void main(String[] args) throws InterruptedException {
-        Test thread1 = new Test();
+        MethodChaining thread1 = new MethodChaining();
         thread1.setName("Ramesh");
 
-        Test thread2 =  new Test();
+        MethodChaining thread2 =  new MethodChaining();
         thread2.setName("Suresh");
 
-        Test thread3 =  new Test();
+        MethodChaining thread3 =  new MethodChaining();
         thread3.setName("Kamlesh");
 
         thread1.start();
@@ -205,7 +205,7 @@ public class Test extends Thread {
 
 /*
 //Exception in double data type
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         float d = 0/0.0f;
@@ -216,7 +216,7 @@ public class Test {
 
 //Finally doesn't execute
 /*
-class Test {
+class MethodChaining {
     public static void main(String[] args) {
         try{
             System.out.println("Try Block");
@@ -231,7 +231,7 @@ class Test {
 
 
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         String s1 = "Java";
@@ -250,7 +250,7 @@ public class Test {
 
 //Arithmetic Exception
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         try
@@ -269,7 +269,7 @@ public class Test {
 
 /*
 //Palindrome Number using charAt() method
-class Test {
+class MethodChaining {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -291,7 +291,7 @@ class Test {
 
 /*
 //Palindrome Number
-class Test {
+class MethodChaining {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number : ");
@@ -314,7 +314,7 @@ class Test {
 
 /*
 // CompareTo case of String
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         String s1 = "Java";
@@ -334,7 +334,7 @@ public class Test {
 
 /*
 //Static
-class Test
+class MethodChaining
 {
     // static variable
      static int a =12;
@@ -355,7 +355,7 @@ class Test
     {
         System.out.println("Value of a : "+ a);
         System.out.println("from main");
-        Test.m1();
+        MethodChaining.m1();
 
         String s1 = "Nikhil";
         StringBuffer sb = new StringBuffer("Nikhil");
@@ -367,7 +367,7 @@ class Test
 */
 
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         String s1 = "Nikhil";
@@ -388,7 +388,7 @@ public class Test {
 
 //Intern Method
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         String s1 = "Sharma";
@@ -402,7 +402,7 @@ public class Test {
 
 // subString Method
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         System.out.println("abc");
@@ -418,7 +418,7 @@ public class Test {
 
 // String Creation and checking by using equality Operator
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         String s1 = "Nikhil";
@@ -441,7 +441,7 @@ public class Test {
 
 //Equal Operator of String class
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         String s1 = " Nikhil";
@@ -459,7 +459,7 @@ public class Test {
 /*
 import java.util.Scanner;
 
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -476,29 +476,29 @@ public class Test {
 
 //Inheritance
 /*
-class Test {
+class MethodChaining {
 
     int a;
     int b;
 
-    Test(){
+    MethodChaining(){
         System.out.println(a + " " + b);
     }
 
-    Test(int a, int b){
+    MethodChaining(int a, int b){
         System.out.println(a + " " +b);
     }
 
     public static void main(String[] args) {
-        Test a = new Test(20, 30);
-        Test b = new Test();
+        MethodChaining a = new MethodChaining(20, 30);
+        MethodChaining b = new MethodChaining();
     }
 }
 
-class A extends Test {
+class A extends MethodChaining {
 
     public static void main(String[] args) {
-        Test a = new Test();
+        MethodChaining a = new MethodChaining();
 
     }
 }
@@ -507,7 +507,7 @@ class A extends Test {
 //BinarySearch Array Method
 /*
 import java.util.Arrays;
-public class Test {
+public class MethodChaining {
     public static void main(String[] args)
     {
         // Creating a sorted array of int and char types.
@@ -529,7 +529,7 @@ public class Test {
 
 //toString Array Method
 /*
-public class Test {
+public class MethodChaining {
     public static void main(String[] args) {
         // Array of strings
         String[] fruits = {"Cherry", "Apple", "Banana", "App"};
@@ -563,23 +563,23 @@ class Test1 {
     }
 }
 
-public class Test extends Test1 {
-    public Test() {
+public class MethodChaining extends Test1 {
+    public MethodChaining() {
         this(23, "Aa");
-        System.out.println("No-arg Constructor Test");
+        System.out.println("No-arg Constructor MethodChaining");
     }
 
-    public Test(int a, String b) {
+    public MethodChaining(int a, String b) {
         this("aa", 12, true);
-        System.out.println("2-arg Constructor Test");
+        System.out.println("2-arg Constructor MethodChaining");
     }
 
-    public Test(String a , int b, boolean c) {
-        System.out.println("3-arg Constructor Test");
+    public MethodChaining(String a , int b, boolean c) {
+        System.out.println("3-arg Constructor MethodChaining");
     }
 
     public static void main(String[] args) {
-        Test t = new Test();
+        MethodChaining t = new MethodChaining();
 
     }
 }

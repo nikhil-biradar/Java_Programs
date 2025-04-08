@@ -12,7 +12,7 @@ public class CustomArrayListApp {
         list.add(2.5);
         list.add("Nitin");
 
-        //Display all elements in Custom ArrayList
+        //Display all elements in Custom ArrayListString
         list.display();
 //        System.out.println();
         //Display specific element in Custom Arraylist
