@@ -80,7 +80,7 @@ public class Employee {
     }
 
     Employee(int age){
-        System.out.println("One are Const : " + age);
+        System.out.println("A are Const : " + age);
     }
 
     Employee(int age, String name){

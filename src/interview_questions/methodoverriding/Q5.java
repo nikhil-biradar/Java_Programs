@@ -4,7 +4,7 @@ package interview_questions.methodoverriding;
 
 class X {
     strictfp void method(int a) {
-        System.out.println("One");
+        System.out.println("A");
     }
     strictfp void method(double b) {
         System.out.println("Two");

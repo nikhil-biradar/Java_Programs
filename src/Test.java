@@ -1,4 +1,22 @@
-import java.util.Scanner;
+interface A {
+    static void display(){
+        System.out.println("A");
+    }
+}
+
+interface B {
+    static void display1(){
+        System.out.println("B");
+    }
+}
+
+public class Test implements A, B {
+    public static void main(String[] args) {
+        A.display();
+    }
+}
+
+/*
 public class Test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,6 +35,7 @@ public class Test {
         }
     }
 }
+*/
 
 /*public class MethodChaining {
     public static void main(String[] args) {
@@ -128,7 +147,7 @@ public class MethodChaining implements Runnable{
 
     public static void main(String[] args) {
         MethodChaining test = new MethodChaining();
-        Thread t1 = new Thread(test, "One");
+        Thread t1 = new Thread(test, "A");
         Thread t2 = new Thread(test, "Two");
         Thread t3 = new Thread(test, "Three");
         t1.start();

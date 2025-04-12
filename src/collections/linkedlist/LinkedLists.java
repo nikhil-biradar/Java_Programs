@@ -9,16 +9,20 @@ public class LinkedLists {
         list.add("Nikhil"); // Add Elements to the list
         list.add("Nitin");
         list.add("Ashish");
-        System.out.println(list + "\n");
+        System.out.println(list);
 
+        System.out.println();
+        System.out.println("Iteration Using for each loop : ");
         for(String str : list){ // prints Elements without bracket
-            System.out.println(str);
+            System.out.print(str + " ");
         }
 
         list.addFirst("Akshay"); // Add Element at First
         list.addLast("Mahesh"); // Add Element at Last
-        System.out.println("\n" + list + "\n");
+        System.out.println("\n");
+        System.out.println(list);
 
+        System.out.println();
         list.add(3, "Sonali");
         System.out.println(list + "\n"); // Add Sonali at index 3
 

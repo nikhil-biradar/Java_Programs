@@ -6,7 +6,7 @@ import java.io.IOException;
 
 class One {
     void m1() throws Throwable {
-        System.out.println("m1-One");
+        System.out.println("m1-A");
     }
 }
 

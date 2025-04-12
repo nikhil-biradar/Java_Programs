@@ -6,7 +6,7 @@ class XY
 {
     protected Number m1(int a)
     {
-        System.out.println("One");
+        System.out.println("A");
         return null;
     }
     Object m2()

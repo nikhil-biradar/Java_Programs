@@ -5,7 +5,7 @@ public class ArithmeticEx {
     public static void main(String[] args) {
 
         //Exception Occurs
-        System.out.println("One");
+        System.out.println("A");
         System.out.println("Two");
 //        System.out.println(10/0); //Exception Occurs at this line
 

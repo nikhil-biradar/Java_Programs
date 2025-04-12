@@ -8,8 +8,7 @@ interface Two {
     void display_fathers_name();
 }
 
-
-class Child implements One, Two {
+public class Child implements One, Two {
     @Override
     public void display_name(){
         System.out.println("Nikhil");
@@ -22,10 +21,8 @@ class Child implements One, Two {
     public void display_surname(){
         System.out.println("Biradar");
     }
-}
 
-//Driver class
-public class Main {
+
     public static void main(String[] args) {
         Child c1 = new Child();
         c1.display_name();
