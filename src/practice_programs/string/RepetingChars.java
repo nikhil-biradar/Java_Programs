@@ -1,4 +1,4 @@
-package practice_programs;
+package practice_programs.string;
 
 public class RepetingChars {
     public static void main(String[] args) {
