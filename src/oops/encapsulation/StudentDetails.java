@@ -36,8 +36,8 @@ public class StudentDetails {
         s.stdRollNo = 178021;
         s.stdId = 22020080;
 
-        System.out.println("Student's Name : " + s.getStdName());
-        System.out.println("Student's Roll No : " + s.getStdRollNo());
-        System.out.println("Student's Id : " + s.getStdId());
+        System.out.println("StudentAsc's Name : " + s.getStdName());
+        System.out.println("StudentAsc's Roll No : " + s.getStdRollNo());
+        System.out.println("StudentAsc's Id : " + s.getStdId());
     }
 }
