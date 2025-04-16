@@ -1,18 +1,12 @@
-interface A {
-    static void display(){
-        System.out.println("A");
-    }
-}
 
-interface B {
-    static void display1(){
-        System.out.println("B");
+public class Test {
+    private static int getStringLength(String str){
+        System.out.println(str.length());
+        return str.length();
     }
-}
 
-public class Test implements A, B {
     public static void main(String[] args) {
-        A.display();
+        getStringLength("Java Programming");
     }
 }
 
