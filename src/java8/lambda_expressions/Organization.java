@@ -18,7 +18,6 @@ class Test1 {
         Organization org1 = () -> {
             return "200";
         };
-
         System.out.println("Using Lambda Expression : " + org1.getSalary());
     }
 }
