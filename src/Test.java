@@ -1,12 +1,9 @@
 
 public class Test {
-    private static int getStringLength(String str){
-        System.out.println(str.length());
-        return str.length();
-    }
-
     public static void main(String[] args) {
-        getStringLength("Java Programming");
+        String s1 = "Hello";
+        s1 = "Hello" + "World";
+        System.out.println(s1);
     }
 }
 
