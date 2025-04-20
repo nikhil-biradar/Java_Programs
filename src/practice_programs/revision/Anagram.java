@@ -23,12 +23,11 @@ public class Anagram {
             Arrays.sort(a1);
             Arrays.sort(a2);
 
-            if(Arrays.equals(a1,a2) == true){
+            if(Arrays.equals(a1, a2)){
                 System.out.println("Strings are Anagram");
             }else {
                 System.out.println("Strings are not Anagram");
             }
-
         }
     }
 }

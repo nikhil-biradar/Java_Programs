@@ -1,11 +1,51 @@
 
 public class Test {
+}
+
+/*interface A {
+    static void show(){
+        System.out.println("Default method in Interface A");
+    }
+}
+
+interface B {
+    static void show(){
+        System.out.println("Default method in Interface B");
+    }
+}
+
+public class Test implements A, B{
+    public static void main(String[] args) {
+        A.show();
+        B.show();
+    }
+}*/
+
+
+/*
+public class Test {
+    public static void main(String[] args) {
+        int i = test();
+        System.out.println(i);
+    }
+
+    public static int test(){
+        int i = 10, j;
+        return j = i++ + --i + ++i + ++i ;
+    }
+}
+*/
+
+
+/*
+public class Test {
     public static void main(String[] args) {
         String s1 = "Hello";
         s1 = "Hello" + "World";
         System.out.println(s1);
     }
 }
+*/
 
 
 /*
