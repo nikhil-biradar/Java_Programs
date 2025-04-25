@@ -1,7 +1,5 @@
 package collections.comparator_interface;
 
-import collections.comparable_interface.Student;
-
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;

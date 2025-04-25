@@ -1,5 +1,14 @@
-
 public class Test {
+    public static void main(String[] args) {
+        Test1.main(null);
+    }
+
+    static class Test1 {
+        static int a = 10;
+        public static void main(String[] args) {
+            System.out.println(Test1.a);
+        }
+    }
 }
 
 /*interface A {

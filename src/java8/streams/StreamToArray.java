@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class StramToArray {
+public class StreamToArray {
     public static void main(String[] args) {
+
         List<String> names = new ArrayList<>();
         names.add("Nikhil");
         names.add("Aditya");
@@ -16,7 +17,7 @@ public class StramToArray {
         names.add("Sarang");
         names.add("Saniya");
 
-        Object [] arraySteram = names.stream().limit(3).toArray();
-        System.out.println(Arrays.toString(arraySteram));
+        Object [] arrayStream = names.stream().limit(3).toArray();
+        System.out.println(Arrays.toString(arrayStream));
     }
 }
