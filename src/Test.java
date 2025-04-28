@@ -1,15 +1,27 @@
 public class Test {
     public static void main(String[] args) {
+        
+    }
+}
+
+
+/*public class Test {
+    public static void main(String[] args) {
         Test1.main(null);
     }
 
     static class Test1 {
+        int b = 20;
         static int a = 10;
         public static void main(String[] args) {
+            int a = 20;
+            System.out.println(new Test1().b);
+            System.out.println(new Test1().a);
             System.out.println(Test1.a);
         }
     }
-}
+}*/
+
 
 /*interface A {
     static void show(){
