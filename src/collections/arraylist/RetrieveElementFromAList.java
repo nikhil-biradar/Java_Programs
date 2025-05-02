@@ -1,5 +1,5 @@
 //4. Write a Java program to retrieve an element (at a specified index) from a given array list.
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

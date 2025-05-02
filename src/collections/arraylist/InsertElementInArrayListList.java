@@ -1,6 +1,6 @@
 //3. Write a Java program to insert an element into the array list at the first position.
 
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,10 @@
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ReverseArrayList {
+public class ReverseArrayList1 {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(10);

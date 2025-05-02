@@ -1,5 +1,5 @@
 //5. Write a Java program to update an array element by the given element.
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

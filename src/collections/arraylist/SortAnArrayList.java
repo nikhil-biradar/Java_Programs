@@ -1,5 +1,5 @@
 //8. Write a Java program to sort a given array list.
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,5 @@
 //7. Write a Java program to search for an element in an array list.
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

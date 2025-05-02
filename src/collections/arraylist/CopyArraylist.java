@@ -1,5 +1,5 @@
 //9. Write a Java program to copy one array list into another.
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

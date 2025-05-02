@@ -1,5 +1,5 @@
 //6. Write a Java program to remove the third element from an array list.
-package collections_programs;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
