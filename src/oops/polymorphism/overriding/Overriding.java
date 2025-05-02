@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package oops.polymorphism.overriding;
 
 public class Overriding {
     final static int a = 10;

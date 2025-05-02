@@ -1,6 +1,7 @@
 package string.string_programs;
 
 public class StringCreationProof {
+
     public static void main(String[] args) {
         String s1 = "Nikhil";
         String s2 = new String("Nikhil");

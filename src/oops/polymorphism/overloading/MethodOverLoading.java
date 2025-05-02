@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package oops.polymorphism.overloading;
 
 class Overload {
     static void sum(int p) {

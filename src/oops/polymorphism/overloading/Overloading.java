@@ -1,4 +1,4 @@
-package oops.polymorphism;
+package oops.polymorphism.overloading;
 
 public class Overloading {
     void display(Integer a, boolean b){
