@@ -20,6 +20,6 @@ class C implements A, B {
 
     @Override
     public void getName() {
-        B.super.getName();
+        A.super.getName();
     }
 }
