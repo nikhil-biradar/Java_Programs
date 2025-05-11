@@ -12,9 +12,11 @@ interface B extends A {
 }
 
 class C implements A, B {
+
     public static void main(String[] args) {
         new C().show();
     }
+
 
     @Override
     public void show() {

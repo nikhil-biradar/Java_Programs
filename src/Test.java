@@ -1,6 +1,15 @@
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 public class Test {
+
+    @Getter @Setter
+    String name;
+
     public static void main(String[] args) {
-        
+
+
     }
 }
 
