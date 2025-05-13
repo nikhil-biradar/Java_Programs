@@ -3,6 +3,7 @@ package statics;
 public class StaticClass {
 
     static class A {
+
         {
             System.out.println("This is Instance Block Static Class A");
         }

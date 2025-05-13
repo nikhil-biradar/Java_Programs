@@ -1,17 +1,62 @@
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+
+
+/*
+import java.util.Scanner;
 
 public class Test {
-
-    @Getter @Setter
-    String name;
+    int a;
+    int b;
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter value of a:");
+        int a = sc.nextInt();
 
+        System.out.println("Enter value of b:");
+        int b = sc.nextInt();
+
+        Add ad = new Add();
+        ad.a = a;
+        ad.b = b;
+
+        Sub sb = new Sub();
+        sb.a = a;
+        sb.b = b;
+
+        Div dv = new Div();
+        dv.a = a;
+        dv.b = b;
+
+        ad.add();
+        sb.sub();
+        dv.div();
     }
 }
+
+
+class Add extends Test {
+    void add() {
+        System.out.println("Addition: " + (a + b));
+    }
+}
+
+class Sub extends Test {
+    void sub() {
+        System.out.println("Subtraction: " + (a - b));
+    }
+}
+
+class Div extends Test {
+    void div() {
+        if (b != 0) {
+            System.out.println("Division: " + (a / b));
+        } else {
+            System.out.println("Cannot divide by zero");
+        }
+    }
+}
+*/
 
 
 /*public class Test {
