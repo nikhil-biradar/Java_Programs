@@ -12,7 +12,7 @@ public class StringBufferCreation {
 
         //2nd Way
         StringBuffer sb1 = new StringBuffer("Tech");
-        int length = sb1.length();
+        int length = sb1.length(); // 4
         int capacity = sb1.length() + 16;
 
         System.out.println("Length of sb1 : " + length);

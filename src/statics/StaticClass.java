@@ -18,7 +18,7 @@ public class StaticClass {
     }
 
     public static void main(String[] args) {
-        new A();
+        A a = new A();
         A.test();
     }
 }
