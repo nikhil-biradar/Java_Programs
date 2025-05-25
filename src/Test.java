@@ -1,3 +1,75 @@
+
+public class Test {
+    public static void main(String[] args) {
+
+    }
+}
+
+
+/*interface Show {
+    default void show(){
+        System.out.println("Show interface");
+    }
+}
+
+interface Demo {
+
+    default void show() {
+//        Show.super.show();
+        System.out.println("Demo interface");
+    }
+}
+
+class Test implements Show, Demo {
+    public static void main(String[] args) {
+        Test test = new Test();
+        test.show();
+    }
+
+    @Override
+    public void show() {
+        Demo.super.show();
+    }
+}*/
+
+/*
+/// Backward Compatibility example
+interface A {
+    void show();
+
+    void display();
+
+}
+
+public class Test implements A {
+
+    @Override
+    public void show() {
+        System.out.println("Class Test");
+    }
+
+    @Override
+    public void display() {
+
+    }
+}
+
+class Demo implements A {
+
+    @Override
+    public void show() {
+        System.out.println("Class Demo");
+    }
+
+    @Override
+    public void display() {
+
+    }
+}
+*/
+
+
+/*
 public class Test {
     public static void main(String[] args) {
         String s1 = "Nikhil";
@@ -11,6 +83,7 @@ public class Test {
 
     }
 }
+*/
 
 /*public class Test {
     public static void main(String[] args) {
