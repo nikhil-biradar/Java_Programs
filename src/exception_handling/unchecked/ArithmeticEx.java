@@ -1,8 +1,13 @@
 package exception_handling.unchecked;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //Exception Occurs if divide by 0
 public class ArithmeticEx {
     public static void main(String[] args) {
+
+        List<T> list = new ArrayList<>();
 
         //Exception Occurs
         System.out.println("A");

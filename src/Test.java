@@ -1,6 +1,220 @@
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "Nikhil";
+        String s2 = "Nitin";
+
+        s1 = s1 + s2;
+        s2 = s1.substring(0, (s1.length()-s2.length()));
+        s1 = s1.substring(s2.length());
+
+        System.out.println(s1 + " " + s2);
+
+    }
+}
+
+/*public class Test {
+    public static void main(String[] args) {
+        int num = 153;
+
+        int result = 0;
+        int temp = num;
+
+        while (temp != 0) {
+            int digit = temp % 10;
+            result += digit * digit * digit;
+            temp /= 10;
+        }
+
+        if (result == num) {
+            System.out.println("Number is Armstrong");
+        } else {
+            System.out.println("Number is not Armstrong");
+        }
+    }
+}*/
+
+/*
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Numbers : ");
+        int num = sc.nextInt();
+
+        int temp = num;
+        int result = 0;
+
+        while(temp != 0){
+            int digit = temp % 10;
+            result += digit * digit * digit;
+            temp /= 10;
+        }
+
+        if (result == num)
+            System.out.println("Number is Armstrong");
+        else
+            System.out.println("Number is not Armstrong");
+    }
+}
+*/
+
+/*
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Numbers : ");
+        int num = sc.nextInt();
+
+        int temp = num;
+        int result = 0;
 
 
+        while(temp > 0){
+            int digit = temp % 10;
+            result += digit * digit * digit;
+            temp /= 10;
+        }
 
+        if(result == num)
+            System.out.println("Number is Armstrong");
+        else
+            System.out.println("Number is not Armstrong");
+    }
+}
+*/
+
+
+/*public class Test {
+    public static void main(String[] args) {
+        int a = 0;
+        int b = 1;
+        int num = 10;
+        int sum = 0;
+
+        for(int i = 0; i <= num; i++){
+            System.out.print(a + " ");
+            sum = a + b;
+            a = b;
+            b = sum;
+        }
+    }
+}*/
+
+/*import java.util.Arrays;
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first number : ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter first number : ");
+        int num2 = sc.nextInt();
+
+        String s1 = Integer.toString(num1);
+        String s2 = Integer.toString(num2);
+
+        if(s1.length() != s2.length())
+            System.out.println("Numbers are not Anagrams");
+        else{
+            char [] ch1 = s1.toCharArray();
+            char [] ch2 = s2.toCharArray();
+
+            Arrays.sort(ch1);
+            Arrays.sort(ch2);
+
+            if(Arrays.equals(ch1, ch2))
+                System.out.println("Numbers are anagrams");
+            else
+                System.out.println("Numbers are not anagrams");
+        }
+    }
+}*/
+
+
+/*import java.util.Arrays;
+import java.util.Scanner;
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "listen";
+        String s2 = "silent";
+
+        if(s1.length() != s2.length()){
+            System.out.println("Strings are not anagrams");
+        }else {
+            char [] a1 = s1.toCharArray();
+            char [] a2 = s2.toCharArray();
+
+            Arrays.sort(a1);
+            Arrays.sort(a2);
+
+            if(Arrays.equals(a1, a2)){
+                System.out.println("Strings are anagram");
+            }else {
+                System.out.println("Strings are not anagram");
+            }
+        }
+    }
+}*/
+
+/*
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "Nikhil";
+        String s2 = "Nitin";
+
+        s1 += s2;
+        s2 = s1.substring(0, s1.length()-s2.length());
+        s1 = s1.substring(s2.length());
+
+        System.out.println("s1 : " + s1 + "\n" + "s2 : " + s2);
+    }
+}
+*/
+
+/*
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number : ");
+        int num = sc.nextInt();
+        int temp=num;
+        int rev=0;
+
+        while(temp > 0){
+            rev = temp % 10 + rev * 10;
+            temp /= 10;
+        }
+        if(rev == num){
+            System.out.println("Number is Palindrome");
+        }else {
+            System.out.println("Number is not palindrome");
+        }
+    }
+}
+*/
+
+/*public class Test {
+    public  int factorial(int num){
+        int fact = 1;
+
+        for(int i=2; i<=num; i++){
+            fact *= i;
+        }
+        return fact;
+    }
+
+    public static void main(String[] args) {
+        Test t = new Test();
+        System.out.println(t.factorial(5));
+    }
+}*/
 
 /*
 import java.util.Scanner;

@@ -2,8 +2,8 @@ package exception_handling.custom_exception;
 
 public class CustomException extends RuntimeException {
 
-    public CustomException(String message) {
-        super(message);
+    public CustomException(Object message) {
+        super((String) message);
     }
 
     public static void main(String[] args) {

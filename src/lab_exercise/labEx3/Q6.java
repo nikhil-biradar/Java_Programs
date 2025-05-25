@@ -8,9 +8,6 @@ public class Q6 {
     public static void main(String[] args) {
         System.out.println("Value of PI: " + PI);
         System.out.println("Square of 5: " + sqrt(16));
-        System.out.println(pow(2, 3));
+        System.out.println(pow(2, 3));  // 2 raised to the power of 3
     }
 }
-
-
-
