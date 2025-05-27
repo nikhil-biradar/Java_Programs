@@ -5,10 +5,32 @@ public class Test {
     }
 }
 
+/*
+/// Anonymous Array
+public class Test {
+    public static void main(String[] args)
+    {
+        //Creating anonymous arrays
+
+        System.out.println(new int[]{1, 2, 3, 4, 5}.length);    //Output : 5
+
+        System.out.println(new int[]{21, 14, 65, 24, 21}[2]);   //Output : 14
+    }
+}
+*/
 
 /*interface Show {
     default void show(){
         System.out.println("Show interface");
+        userDetails();
+    }
+
+    private void userDetails(){
+        int accountNumber = 2546879;
+        long aadharNo = 881947689774L;
+        String accountHolderName = "Nikhil Balaji Biradar";
+
+        System.out.println(accountHolderName + " " + aadharNo + " " + accountNumber);
     }
 }
 
@@ -28,7 +50,7 @@ class Test implements Show, Demo {
 
     @Override
     public void show() {
-        Demo.super.show();
+        Show.super.show();
     }
 }*/
 
