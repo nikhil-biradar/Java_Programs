@@ -1,9 +1,67 @@
+import java.util.Arrays;
 
-public class Test {
+public class Test{
     public static void main(String[] args) {
+        String str1 = new String("Java").intern();
+        String str2 = "Java";
+        System.out.println(str1 == str2);
+
+        /*System.out.println(str1 == str2);
+        System.out.println(str1.equals(str2));
+        System.out.println(str1.hashCode() == str2.hashCode());
+
+        System.out.println("JAVAJ2EE".substring(2, 5).substring(1).charAt(1));*/
+
+        /*System.out.print("0".indent(0));
+        System.out.print("1".indent(1));
+        System.out.print("2".indent(2));
+        System.out.print("3".indent(3));
+        System.out.print("4".indent(4));
+        System.out.print("5".indent(5));*/
+
+//        System.out.println(str1.indexOf("b"));
+
+        /*String s1 = null;
+        String s2 = "nikhil";
+        System.out.println(s1 == s2);
+        System.out.println(s1.equals(s2));*/
+
+        /*System.out.println(str1.hashCode());
+         str1 = str1.intern();
+        System.out.println(str1.hashCode());
+        System.out.println(str1.hashCode());
+        System.out.println(str1 == str1);
+        System.out.println(str1.equals(str1));
+*/
+
+        
 
     }
 }
+
+/*public class Test{
+
+    static void printNull(){
+        System.out.print((String) null);
+
+    }
+
+    public static void main(String[] args) {
+        Test.printNull();
+    }
+}
+*/
+
+/*public class Test {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Java");
+        System.out.println(sb.capacity());
+
+        StringBuffer sb1 = new StringBuffer();
+        sb1.append("Java");
+        System.out.println(sb1.capacity());
+    }
+}*/
 
 /*
 /// Anonymous Array
