@@ -6,7 +6,7 @@ public class Singleton {
 
     private Singleton(){
         if(instance != null){
-            throw new IllegalStateException("Instance is already Created");
+            throw new IllegalStateException("Instance is already Created"); /// Preventing form Reflection
         }
     }
 
@@ -19,7 +19,7 @@ public class Singleton {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        throw new CloneNotSupportedException();
+        throw new CloneNotSupportedException(); /// Preventing from Clone
     }
 
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -29,4 +29,3 @@ public class Singleton {
 
     }
 }
-

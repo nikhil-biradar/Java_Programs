@@ -1,4 +1,33 @@
-import java.util.Arrays;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
+public class Test {
+    int id;
+    String name;
+    String email;
+
+    /*@Override
+    public String toString() {
+        return "Test{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }*/
+
+    public static void main(String[] args) {
+        Test test = new Test();
+        test.setId(101);
+        test.setName("Nikhil");
+        test.setEmail("nikhilbiradar878@gamil.com");
+
+        System.out.println("User Details : " + "Id : " + test.id + " name : " + test.name + " email : " + test.email);
+    }
+}
+
+
+/*import java.util.Arrays;
 
 public class Test{
     public static void main(String[] args) {
@@ -6,38 +35,38 @@ public class Test{
         String str2 = "Java";
         System.out.println(str1 == str2);
 
-        /*System.out.println(str1 == str2);
+        *//*System.out.println(str1 == str2);
         System.out.println(str1.equals(str2));
         System.out.println(str1.hashCode() == str2.hashCode());
 
-        System.out.println("JAVAJ2EE".substring(2, 5).substring(1).charAt(1));*/
+        System.out.println("JAVAJ2EE".substring(2, 5).substring(1).charAt(1));*//*
 
-        /*System.out.print("0".indent(0));
+        *//*System.out.print("0".indent(0));
         System.out.print("1".indent(1));
         System.out.print("2".indent(2));
         System.out.print("3".indent(3));
         System.out.print("4".indent(4));
-        System.out.print("5".indent(5));*/
+        System.out.print("5".indent(5));*//*
 
 //        System.out.println(str1.indexOf("b"));
 
-        /*String s1 = null;
+        *//*String s1 = null;
         String s2 = "nikhil";
         System.out.println(s1 == s2);
-        System.out.println(s1.equals(s2));*/
+        System.out.println(s1.equals(s2));*//*
 
-        /*System.out.println(str1.hashCode());
+        *//*System.out.println(str1.hashCode());
          str1 = str1.intern();
         System.out.println(str1.hashCode());
         System.out.println(str1.hashCode());
         System.out.println(str1 == str1);
         System.out.println(str1.equals(str1));
-*/
+*//*
 
         
 
     }
-}
+}*/
 
 /*public class Test{
 

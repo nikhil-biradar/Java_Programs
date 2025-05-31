@@ -1,6 +1,5 @@
 package custom_annotation;
 
-import java.lang.annotation.Annotation;
 
 public class Main {
 

@@ -12,7 +12,7 @@ class Company {
 //        return "Nikhil ";
 //    }
 
-    //after java 1.8 using lambda expressions
+    /// after java 1.8 using lambda expressions
 
     public static void main(String[] args) {
         Employee emp = () -> {
