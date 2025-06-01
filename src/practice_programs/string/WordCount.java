@@ -20,6 +20,7 @@ public class WordCount {
         for(String str1 : str){
             count ++;
         }
+
         System.out.println(count);
     }
 }
