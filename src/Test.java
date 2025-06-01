@@ -1,4 +1,17 @@
-import lombok.Getter;
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "Java";
+        String s2 = "Python";
+
+        s1 += s2;
+        s2 = s1.substring(0, (s1.length() - s2.length()));
+        s1 = s1.substring(s2.length());
+
+        System.out.println(s1 + " " + s2);
+    }
+}
+
+/*import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
@@ -7,14 +20,14 @@ public class Test {
     String name;
     String email;
 
-    /*@Override
+    *//*@Override
     public String toString() {
         return "Test{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 '}';
-    }*/
+    }*//*
 
     public static void main(String[] args) {
         Test test = new Test();
@@ -24,7 +37,7 @@ public class Test {
 
         System.out.println("User Details : " + "Id : " + test.id + " name : " + test.name + " email : " + test.email);
     }
-}
+}*/
 
 
 /*import java.util.Arrays;
