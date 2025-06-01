@@ -4,12 +4,12 @@ public class FindUpperCaseInString {
     public static void main(String[] args) {
 
         String s = "Nikhil Biradar";
-        String a = "";
+        StringBuilder a = new StringBuilder();
 
         for(int i=0; i<s.length(); i++){
             char arr = s.charAt(i);
             if(arr == Character.toUpperCase(arr)) {
-                a += arr;
+                a.append(arr);
             }
         }
         System.out.println(a);

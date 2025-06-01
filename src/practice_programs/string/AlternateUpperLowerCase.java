@@ -4,16 +4,15 @@ public class AlternateUpperLowerCase {
     public static void main(String[] args) {
 
         String str = "nikhil";
-
-        String newString = "";
+        StringBuilder newString = new StringBuilder();
 
         for(int i = 0; i < str.length(); i++){
             char c = str.charAt(i);
 
-            if(c % 2 == 0){
-                newString += Character.toUpperCase(c);
+            if(i % 2 == 0){
+                newString.append(Character.toUpperCase(c));
             }else{
-                newString += Character.toLowerCase(c);
+                newString.append(Character.toLowerCase(c));
             }
         }
         System.out.println(newString);
