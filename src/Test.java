@@ -1,3 +1,79 @@
+
+import java.util.Scanner;
+
+class FibonacciSeries {
+    public static void main(String[] args) {
+        int n1 = 0, n2 = 1, sum = 0;
+
+        for (int i = 1; i < 10; i++) {
+            System.out.print(sum + " ");
+            sum = n1 + n2;
+            n1 = n2;
+            n2 = sum;
+        }
+
+    }
+}
+
+
+/*
+class FibonacciSeriess {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number : ");
+        int num = sc.nextInt();
+
+        int a = 0;
+        int b = 1;
+
+        for (int i = 0; i < num; i++) {
+            System.out.print(a + " ");
+            int sum = a + b;
+            a = b;
+            b = sum;
+        }
+    }
+}
+*/
+
+
+/*public class Test {
+    public static void main(String[] args) {
+        String s1 = "";
+        String s2 = " ";
+
+        System.out.println(s1.isEmpty());
+        System.out.println(s1.isBlank());
+
+
+        System.out.println(s2.isEmpty());
+        System.out.println(s2.isBlank());
+    }
+}*/
+
+/*
+public class Test {
+
+    private Test(){
+        System.out.println("Private Constructor with 1 Parameter");
+    }
+
+    void show(){
+        System.out.println("Show Method");
+    }
+}
+
+class Main extends Test {
+    public static void main(String[] args) {
+        Main main  = new Main();
+        Test test = new Test();
+        test.show();
+    }
+}
+*/
+
+
+/*
 public class Test {
     public static void main(String[] args) {
         String s1 = "Java";
@@ -10,6 +86,7 @@ public class Test {
         System.out.println(s1 + " " + s2);
     }
 }
+*/
 
 /*import lombok.Getter;
 import lombok.Setter;
