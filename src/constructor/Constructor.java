@@ -3,7 +3,7 @@ package constructor;
 public class Constructor {
 
     public Constructor(){
-        System.out.println("This is public accessmodifiers.constructor");
+        System.out.println("This is public accessmodifiers constructor");
     }
 
     private Constructor(int age){
@@ -21,9 +21,7 @@ public class Constructor {
 
     public static void main(String[] args) {
         Constructor obj = new Constructor(10);
-
         Constructor obj1 = new Constructor(23);
-
         Constructor obj2 = new Constructor("Java");
     }
 }
