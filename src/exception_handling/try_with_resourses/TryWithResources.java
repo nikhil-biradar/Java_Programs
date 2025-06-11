@@ -29,6 +29,5 @@ public class TryWithResources {
         } catch (FileNotFoundException fnfe) {
             fnfe.printStackTrace();
         }
-
     }
 }
