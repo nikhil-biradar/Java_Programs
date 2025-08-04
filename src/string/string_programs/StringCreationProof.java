@@ -11,5 +11,11 @@ public class StringCreationProof {
 
         System.out.println(System.identityHashCode("Nikhil")); //refers scp
         System.out.println(System.identityHashCode(s2)); // refers heap
+
+        /*System.out.println(s1.hashCode()); //refers scp
+        System.out.println("Nikhil".hashCode()); //refers scp
+
+        System.out.println("Nikhil".hashCode()); //refers scp
+        System.out.println(s1.hashCode()); // refers heap*/
     }
 }

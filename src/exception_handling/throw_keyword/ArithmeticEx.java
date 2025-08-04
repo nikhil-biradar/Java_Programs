@@ -1,6 +1,7 @@
 package exception_handling.throw_keyword;
 
 public class ArithmeticEx {
+
     public static void main(String[] args) {
 
         System.out.println(10/0);
@@ -14,5 +15,6 @@ public class ArithmeticEx {
         } catch (ArithmeticException ae) {
             System.out.println(ae);
         }*/
+
     }
 }
